@@ -1,0 +1,9 @@
+﻿[project]
+name = "or4agents"
+version = "0.1.0"
+description = "Operations Research for AI Agents"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"

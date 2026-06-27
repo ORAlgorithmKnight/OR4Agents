@@ -1,0 +1,11 @@
+﻿# OR4Agents Dependencies
+# Core
+numpy>=1.24
+scipy>=1.10
+# Optimization
+ortools>=9.6
+# Agent frameworks
+# langgraph
+# autogen
+# Utilities
+pydantic>=2.0
