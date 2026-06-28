@@ -57,6 +57,7 @@ This includes:
 
 - neighborhood generation
 - black-box evaluation
+- feasibility checking
 - acceptance strategy
 - iterative improvement
 
@@ -70,7 +71,7 @@ ALS is a concrete realization of ASP using local search:
 
 - start from an initial agent
 - explore local neighborhood
-- evaluate candidates
+- feasibility check and evaluate candidates
 - iteratively improve solution
 
 👉 ALS is a **metaheuristic solver for AOP**
