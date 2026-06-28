@@ -7,14 +7,7 @@ OR4Agents formulates AI Agent optimization as a constrained black-box combinator
 ### Mathematical Formulation
 
 $$
-\begin{aligned}
-S^*
-=
-\arg\max_{S\in\mathcal{F}}
-\Big(
-f(S)-P(S)
-\Big)
-\end{aligned}
+S^* = \arg\max_{S\in\mathcal{F}} \Big( f(S)-P(S) \Big)
 $$
 
 where
