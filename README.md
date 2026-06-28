@@ -84,7 +84,6 @@ ALS can be instantiated into multiple classical OR algorithms:
 - **ALNS4Agents** — Adaptive Large Neighborhood Search
 - **Tabu4Agents** — Tabu Search with memory
 - **SA4Agents** — Simulated Annealing
-- **HC4Agents** — Hill Climbing
 - **VNS4Agents** — Variable Neighborhood Search
 
 Each solver explores the same AOP but with different search strategies.
@@ -109,12 +108,6 @@ This separation allows:
 
 ---
 
-## Role of LLM
-
-In OR4Agents:
-
-- LLM is NOT the optimizer
-- LLM is a **proposal generator**
 
 ## 架构愿景
 
